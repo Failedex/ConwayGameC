@@ -1,21 +1,21 @@
-### Conway's game of life 
-## (But it's poorly written in C)
+# Conway's game of life 
+# (But it's poorly written in C)
 
 This is my first time actually making a C project.
 
 this uses raylib btw
 
-# compiling: 
+### compiling: 
 ```
 make
 ```
 
-# running:
+### running:
 ```
 ./main
 ```
 
-# Usage
+### Usage
 - Use mouse to alive/unalive pixels
 - 'r' to run 
 - 's' to stop
