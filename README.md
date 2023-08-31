@@ -1,5 +1,5 @@
 # Conway's game of life 
-# (But it's poorly written in C)
+### (But it's poorly written in C)
 
 This is my first time actually making a C project.
 
