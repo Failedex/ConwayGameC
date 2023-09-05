@@ -9,7 +9,8 @@ CFLAGS=-L$(LDIR) -I$(IDIR) -lraylib -lm
 %.o: %.c 
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-main: clean
+.PHONY: main
+main: 
 	$(CC) -o $@ main.c $(CFLAGS) 
 
 clean: 
